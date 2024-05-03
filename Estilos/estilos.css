@@ -1,4 +1,4 @@
-header,nav,a,div,img,p,h1,h2,h3,h4,h5,h6{
+html, body,header,nav,a,div,img,p,h1,h2,h3,h4,h5,h6,p,ul,li{
     margin: 0;
     padding: 0;
 }
@@ -59,10 +59,6 @@ div p{
  
        max-width: 100%;
        height: auto;
- }
-
- .card {
-    
  }
  
  #fila1 div img{
