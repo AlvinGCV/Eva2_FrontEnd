@@ -6,8 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <!--Pagina Destinada a "Galeria" -->
+    <link href="Estilos/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-light-subtle" style="background-color: #333;">
+        <div class="container-fluid"style="background-color: grey;">
+            <a class="navbar-brand" href="index.html" >
+                <img src="Galeria/After_end_Logo1.png" width="125" height="125"/>
+            </a> <h1 ><p style="color: darkorchid;">After End</p></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="margin-right: 10px;" class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link   text-center" href="login.html"><h3>Login</h3></a>
+                    <a class="nav-link   text-center" href="galeria.html"><h3>Galeria</h3></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Galeria/Banner1.jpeg" height="300px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Galeria/Banner2.jpeg" height="300px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Galeria/Banner3.jpeg"  height="300px"class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     
-</body>
-</html>
+    </main>
+    <br>
+    <br>
+
+
+    <div id="fila1">
+        <div class="Producto">
+
+            <h2>Llaves Cofres</h2>
+            <h3>Valor: $500</h3>
+            <img src="Galeria/After_end_Dogcoin.jpeg">
+            <div id="cantidad">
+                <input id="txteda" type="number" placeholder="Cant." min="1" max="150" required />
+                <h3>Cantidad:</h3> </br>
+                <div id="descripcion">    
+                    <h4>¡Prueba tu suerte en nuestros</h4>
+                    <h4>Cofres OP con la llaves "DOG"!</h4>
+                </div>
+
+            </div>
+        </div>
+        <div class="Producto">
+
+            <h2>Lobo Eterno</h2>
+            <h3>Valor $1000</h3>
+            <img src="Galeria/After_end_Lobo.jpeg">
+            <div id="cantidad">
+                <input id="txteda" type="number" placeholder="Cant." min="1" max="150" required />
+                <h3>Cantidad:</h3></br>
+                <div id="descripcion">    
+                    <h4>¡La"Inmortalidad" de tu</h4>
+                    <h4>mejor amigo! (solo 1 por PJ)</h4>
+                </div>
+
+            </div>
+        </div>
+    
+        <div class="Producto">
+
+            <h2>Mejora Clan</h2>
+            <h3>Valor: $5000</h3>
+            <img src="Galeria/After_end_Clan.jpeg">
+            <div id="cantidad">
+                <input id="txteda" type="number" placeholder="Cant." min="1" max="150" required />
+                <h3>Cantidad:</h3></br>
+                <div id="descripcion">    
+                    <h4>¡Mejora La Proteccion de</h4>
+                    <h4>tu clan! ¡Crecer y Conquistar!</h4>
+                </div> 
+
+            </div>
+        </div>
+    </div>
+
+    <div id="fila2">
+        <div class="Producto">
+
+            <h2>Rango Aventurero</h2>
+            <h3>Valor: $2500</h3>
+            <img src="Galeria/After_end_Aventurero.jpeg">
+            <div id="cantidad">
+                <input id="txteda" type="number" placeholder="Cant." min="1" max="150" required />
+                <h3>Cantidad:</h3></br>
+                <div id="descripcion">    
+                    <h4>¡Kits, y Protecciones para</h4>
+                    <h4>Comenzar tu Aventura en el mundo!</h4>
+                </div> 
+            </div>
+
+        </div>
+        <div class="Producto">
+
+            <h2>Rango Guerrero</h2>
+            <h3>Valor $3500</h3>
+            <img src="Galeria/After_end_Guerrero.jpeg">
+            <div id="cantidad">
+                <input id="txteda" type="number" placeholder="Cant." min="1" max="150" required />
+                <h3>Cantidad:</h3></br>
+                <div id="descripcion">    
+                    <h4>¡Honra Las tierras de After end!</h4>
+                    <h4>¡Kits, Proteccion y mucho mas!</h4>
+                </div> 
+
+            </div>
+        </div>
+        <div class="Producto">
+
+            <h2>Rango Monarca</h2>
+            <h3>Valor: $5000</h3>
+            <img src="Galeria/After_end_Monarca.jpeg">
+            <div id="cantidad">
+                <input id="txteda" type="number" placeholder="Cant." min="1" max="150" required />
+                <h3>Cantidad:</h3></br>
+                <div id="descripcion">    
+                    <h4>¡Tu nombre resuena en el mundo!</h4>
+                    <h4>¡kits, Proteccion y creacion de clan!</h4>
+                </div> 
+
+            </div>
+        </div>
+    </div>
+
+
+
+      <br>
+      <br>
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    
+
+    <nav>
+        <div class="container" style="background-color: grey;">
+            <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+    
+            <ul class="nav col-md-4 justify-content-center">
+                <li style="color: aliceblue;" class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Asignatura:</a></li>
+                <li style="color: aliceblue;" class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Programacion Front-end</a></li>
+            </ul>
+            </footer>
+        </div>
+    </nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
